@@ -5,14 +5,6 @@ import products.Product;
 
 public class SortByWeight implements Comparator <Product>{
 
-	public SortByWeight(String string, String string2, int i, int j) {
-		// TODO Auto-generated constructor stub
-	}
-
-	public SortByWeight() {
-		// TODO Auto-generated constructor stub
-	}
-
 	@Override
 	public int compare(Product arg0, Product arg1) {
 			int price1 = arg0.getWeight();
