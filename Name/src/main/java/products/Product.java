@@ -9,8 +9,8 @@ public abstract class Product {
     }
 	
     public Product (String name, int cost){
-        this.setName(name);
-        this.setCost(cost);
+        this.name = name;
+        this.cost = cost;
     }
 
 	/**
