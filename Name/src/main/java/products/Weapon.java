@@ -5,10 +5,10 @@ public class Weapon extends Product{
 	protected String damageType;
 	
     public Weapon (String name, String damageType, int cost, int weight){
-        this.setName(name);
-        this.setDamageType(damageType);
-        this.setCost(cost);
-        this.setWeight(weight);
+        this.name = name;
+        this.damageType = damageType;
+        this.cost = cost;
+        this.weight = weight;
     }
 
 	/**
